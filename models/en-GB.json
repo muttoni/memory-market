@@ -1,0 +1,352 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "memory market",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "itemA",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "itemB",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "itemC",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "the items are {itemA} {itemB} and {itemC}",
+            "{itemA} and {itemB} and {itemC}",
+            "{itemA} {itemB} and {itemC}",
+            "{itemA} {itemB} {itemC}",
+            "{itemA} and {itemB}",
+            "{itemA} {itemB}",
+            "{itemA}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "potatoes"
+              }
+            },
+            {
+              "name": {
+                "value": "tomatoes"
+              }
+            },
+            {
+              "name": {
+                "value": "onions"
+              }
+            },
+            {
+              "name": {
+                "value": "carrots"
+              }
+            },
+            {
+              "name": {
+                "value": "lettuce"
+              }
+            },
+            {
+              "name": {
+                "value": "broccoli"
+              }
+            },
+            {
+              "name": {
+                "value": "bell peppers"
+              }
+            },
+            {
+              "name": {
+                "value": "celery"
+              }
+            },
+            {
+              "name": {
+                "value": "cucumbers"
+              }
+            },
+            {
+              "name": {
+                "value": "corn"
+              }
+            },
+            {
+              "name": {
+                "value": "garlic"
+              }
+            },
+            {
+              "name": {
+                "value": "mushrooms"
+              }
+            },
+            {
+              "name": {
+                "value": "sweet potatoes"
+              }
+            },
+            {
+              "name": {
+                "value": "spinach"
+              }
+            },
+            {
+              "name": {
+                "value": "cabbage"
+              }
+            },
+            {
+              "name": {
+                "value": "green beans"
+              }
+            },
+            {
+              "name": {
+                "value": "cauliflower"
+              }
+            },
+            {
+              "name": {
+                "value": "green onions"
+              }
+            },
+            {
+              "name": {
+                "value": "asparagus"
+              }
+            },
+            {
+              "name": {
+                "value": "bananas"
+              }
+            },
+            {
+              "name": {
+                "value": "apples"
+              }
+            },
+            {
+              "name": {
+                "value": "grapes"
+              }
+            },
+            {
+              "name": {
+                "value": "strawberries"
+              }
+            },
+            {
+              "name": {
+                "value": "oranges"
+              }
+            },
+            {
+              "name": {
+                "value": "watermelon"
+              }
+            },
+            {
+              "name": {
+                "value": "lemons"
+              }
+            },
+            {
+              "name": {
+                "value": "blueberries"
+              }
+            },
+            {
+              "name": {
+                "value": "peaches"
+              }
+            },
+            {
+              "name": {
+                "value": "cantaloupe"
+              }
+            },
+            {
+              "name": {
+                "value": "avocados"
+              }
+            },
+            {
+              "name": {
+                "value": "pineapple"
+              }
+            },
+            {
+              "name": {
+                "value": "cherries"
+              }
+            },
+            {
+              "name": {
+                "value": "pears"
+              }
+            },
+            {
+              "name": {
+                "value": "limes"
+              }
+            },
+            {
+              "name": {
+                "value": "raspberries"
+              }
+            },
+            {
+              "name": {
+                "value": "blackberries"
+              }
+            },
+            {
+              "name": {
+                "value": "plums"
+              }
+            },
+            {
+              "name": {
+                "value": "nectarines"
+              }
+            },
+            {
+              "name": {
+                "value": "grapefruit"
+              }
+            },
+            {
+              "name": {
+                "value": "beef"
+              }
+            },
+            {
+              "name": {
+                "value": "chicken"
+              }
+            },
+            {
+              "name": {
+                "value": "prawns"
+              }
+            },
+            {
+              "name": {
+                "value": "crab"
+              }
+            },
+            {
+              "name": {
+                "value": "turkey"
+              }
+            },
+            {
+              "name": {
+                "value": "lemon sole"
+              }
+            },
+            {
+              "name": {
+                "value": "ground beef"
+              }
+            },
+            {
+              "name": {
+                "value": "duck"
+              }
+            },
+            {
+              "name": {
+                "value": "tuna"
+              }
+            },
+            {
+              "name": {
+                "value": "salmon"
+              }
+            },
+            {
+              "name": {
+                "value": "shell fish"
+              }
+            },
+            {
+              "name": {
+                "value": "lamb"
+              }
+            },
+            {
+              "name": {
+                "value": "goat meat"
+              }
+            },
+            {
+              "name": {
+                "value": "shrimp"
+              }
+            },
+            {
+              "name": {
+                "value": "sheep"
+              }
+            },
+            {
+              "name": {
+                "value": "lobster"
+              }
+            },
+            {
+              "name": {
+                "value": "halibut"
+              }
+            },
+            {
+              "name": {
+                "value": "scallops"
+              }
+            },
+            {
+              "name": {
+                "value": "cod"
+              }
+            }
+          ],
+          "name": "AMAZON.Food"
+        }
+      ]
+    }
+  }
+}
